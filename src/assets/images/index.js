@@ -10,6 +10,9 @@ import headerLogo from "./header-logo.svg";
 
 import offer from "./offer.svg";
 
+import shoe1 from './Nike-Phantom-GT2-Academy-MG_.png';
+import shoe2 from './Nike-Tiempo-Legend-10-Academy_.png';
+import shoe3 from './Nike-Mercurial-Vapor-15-Elite_.png';
 import shoe4 from "./Nike-Mercurial-Superfly-9-Club-Blue.png";
 import shoe5 from "./Nike-Mercurials-Red.png";
 import shoe6 from "./Nike-Mercurial-Superfly-9-Club.png";
@@ -34,6 +37,9 @@ export {
   footerLogo,
   headerLogo,
   offer,
+  shoe1,
+  shoe2,
+  shoe3,
   shoe4,
   shoe5,
   shoe6,

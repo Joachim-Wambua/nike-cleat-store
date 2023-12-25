@@ -12,6 +12,9 @@ import {
   bigShoe3,
   customer1,
   customer2,
+  shoe1,
+  shoe2,
+  shoe3,
   shoe4,
   shoe5,
   shoe6,
@@ -55,6 +58,21 @@ export const statistics = [
 ];
 
 export const products = [
+  {
+    imgURL: shoe1,
+    name: "Nike Phantom GT2 Academy MG",
+    price: "$220.20",
+  },
+  {
+    imgURL: shoe2,
+    name: "Nike Tiempo Legend 10",
+    price: "$230.20",
+  },
+  {
+    imgURL: shoe3,
+    name: "Nike Mercurial Vapor Elite",
+    price: "$230.20",
+  },
   {
     imgURL: shoe4,
     name: "Nike Mercurial Superfly 9 Club",
