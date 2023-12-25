@@ -17,7 +17,7 @@ import shoe7 from "./Nike-Phantom-GT2-Academy-MG-Blue.png";
 import shoe8 from "./Nike-Phantom-GX-Academy-Black.png";
 import shoe9 from "./Nike-Phantom-GX-Academy-MG.jpg";
 import shoe10 from "./Nike-Tiempo-Legend-10-Academy-Blue.png";
-import shoe11 from './Nike-Zoom-Mercurial-Superfly-9-Elite-KM-FG.png'
+import shoe11 from "./Nike-Zoom-Mercurial-Superfly-9-Elite-KM-FG.png";
 import shoe12 from "./Nike-Phantom-GX-Elite.png";
 
 import thumbnailBackground from "./Background.png";
@@ -36,7 +36,7 @@ export {
   offer,
   shoe4,
   shoe5,
-  shoe6 ,
+  shoe6,
   shoe7,
   shoe8,
   shoe9,
