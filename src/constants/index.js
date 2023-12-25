@@ -16,6 +16,11 @@ import {
   shoe5,
   shoe6,
   shoe7,
+  shoe8,
+  shoe9,
+  shoe10,
+  shoe11,
+  shoe12,
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
@@ -52,22 +57,47 @@ export const statistics = [
 export const products = [
   {
     imgURL: shoe4,
-    name: "Nike Air Jordan-01",
+    name: "Nike Mercurial Superfly 9 Club",
     price: "$200.20",
   },
   {
     imgURL: shoe5,
-    name: "Nike Air Jordan-10",
+    name: "Nike Mercurial Red",
     price: "$210.20",
   },
   {
     imgURL: shoe6,
-    name: "Nike Air Jordan-100",
+    name: "Nike Mercurial Superfly 10",
     price: "$220.20",
   },
   {
     imgURL: shoe7,
-    name: "Nike Air Jordan-001",
+    name: "Nike Phantom GT2 Academy",
+    price: "$230.20",
+  },
+  {
+    imgURL: shoe8,
+    name: "Nike Phantom GX Academy",
+    price: "$220.20",
+  },
+  {
+    imgURL: shoe9,
+    name: "Nike Phantom GX2 Academy",
+    price: "$230.20",
+  },
+  {
+    imgURL: shoe10,
+    name: "Nike Tiempo Legend 10 Academy",
+    price: "$220.20",
+  },
+  {
+    imgURL: shoe11,
+    name: "Nike Zoom Mercurial Superfly",
+    price: "$230.20",
+  },
+  {
+    imgURL: shoe12,
+    name: "Nike Phantom GX Elite",
     price: "$230.20",
   },
 ];
