@@ -143,15 +143,15 @@ export const services = [
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Morich Brown",
+    customerName: "Razz Moritz",
     rating: 4.5,
     feedback:
       "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
+    customerName: "Elena Keisha",
+    rating: 5.0,
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
   },
@@ -161,12 +161,12 @@ export const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Nike Mercurial Superfly 9 Club", link: "/" },
+      { name: "Nike Phantom GT2 Academy", link: "/" },
+      { name: "Nike Phantom GX Elite", link: "/" },
+      { name: "Nike Tiempo Legend 10 Academy", link: "/" },
+      { name: "Nike Zoom Mercurial Superfly", link: "/" },
+      { name: "Nike Mercurial Vapor Elite", link: "/" },
     ],
   },
   {
