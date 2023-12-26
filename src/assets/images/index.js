@@ -22,6 +22,7 @@ import shoe9 from "./Nike-Phantom-GX-Academy-MG.jpg";
 import shoe10 from "./Nike-Tiempo-Legend-10-Academy-Blue.png";
 import shoe11 from "./Nike-Zoom-Mercurial-Superfly-9-Elite-KM-FG.png";
 import shoe12 from "./Nike-Phantom-GX-Elite.png";
+import shoe13 from "./Nike-Phantom-GT2-Academy-MG-Blue-2.png";
 
 import thumbnailBackground from "./Background.png";
 import thumbnailShoe1 from "./Nike-Phantom-GT2-Academy-MG.png";
@@ -49,6 +50,7 @@ export {
   shoe10,
   shoe11,
   shoe12,
+  shoe13,
   thumbnailBackground,
   thumbnailShoe1,
   thumbnailShoe2,
