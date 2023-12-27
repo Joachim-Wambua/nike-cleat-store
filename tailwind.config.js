@@ -16,7 +16,7 @@ export default {
     extend: {
       fontFamily: {
         palanquin: ["Palanquin", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
+        opensans: ["Open Sans", "sans-serif"],
       },
       colors: {
         primary: "#ECEEFF",

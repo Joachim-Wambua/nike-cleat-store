@@ -10,7 +10,7 @@ const Footer = () => {
           <a href="/">
             <img src={footerLogo} alt="Nike Logo" width={150} height={46} />
           </a>
-          <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
+          <p className="mt-6 text-base leading-7 font-opensans text-white-400 sm:max-w-sm">
             Get Your Football Boots ready for the New season at your nearest
             Nike Store. Find the right boots in Store. Get Rewards{" "}
           </p>
@@ -29,14 +29,14 @@ const Footer = () => {
         <div className="flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap">
           {footerLinks.map((section) => (
             <div key={section}>
-              <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">
+              <h4 className="text-white font-opensans text-2xl leading-normal font-medium mb-6">
                 {section.title}
               </h4>
               <ul>
                 {section.links.map((link) => (
                   <li
                     key={link.name}
-                    className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
+                    className="mt-3 text-white-400 font-opensans text-base leading-normal hover:text-slate-gray cursor-pointer"
                   >
                     <a href="/">{link.name}</a>
                   </li>
@@ -58,7 +58,7 @@ const Footer = () => {
           />
           <p>Copyright. All Rights Reserved</p>
         </div>
-        <p className="font-montserrat cursor-pointer">Terms & Conditions</p>
+        <p className="font-opensans cursor-pointer">Terms & Conditions</p>
       </div>
     </footer>
   );

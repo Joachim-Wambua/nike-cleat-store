@@ -15,7 +15,7 @@ const Hero = () => {
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <p className="text-xl font-montserrat text-persian-blue">
+        <p className="text-xl font-opensans text-persian-blue">
           Explore Our Latest Arrivals
         </p>
         <h1 className="mt-10 font-palanquin text-4xl max-sm:text-[72px] max-sm:leading-[82] font-bold">
@@ -26,7 +26,7 @@ const Hero = () => {
           <span className="text-persian-blue inline-block mt-3">Nike</span>{" "}
           Football Boots
         </h1>
-        <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
+        <p className="font-opensans text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
           Unleash your best game with our latest football boot arrivals –
           stylish, comfortable, and engineered for peak performance on the
           pitch. Elevate your play with quality and innovation.
@@ -38,7 +38,7 @@ const Hero = () => {
           {statistics.map((stat) => (
             <div key={stat.label}>
               <p className="text-4xl font-palanquin font-bold">{stat.value}</p>
-              <p className="leading-7 font-montserrat text-slate-gray">
+              <p className="leading-7 font-opensans text-slate-gray">
                 {stat.label}
               </p>
             </div>

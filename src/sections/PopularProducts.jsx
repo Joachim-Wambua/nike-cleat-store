@@ -8,7 +8,7 @@ const PopularProducts = () => {
         <h2 className="text-4xl font-palanquin font-bold">
           <span className="text-persian-blue">Popular</span> Products
         </h2>
-        <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
+        <p className="lg:max-w-lg mt-2 font-opensans text-slate-gray">
           Elevate your game with our sought-after football boot selections.
           Experience top-notch quality, style, and unbeatable comfort. Discover
           a world of quality design and value for the pitch.
