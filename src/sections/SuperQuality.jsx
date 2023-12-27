@@ -12,8 +12,8 @@ const SuperQuality = () => {
           <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
             We Provide You The
             <br />
-            <span className="text-coral-red inline-block mt-3">Best </span>{" "}
-            <span className="text-coral-red inline-block mt-3">Quality </span>{" "}
+            <span className="text-persian-blue inline-block mt-3">Best </span>{" "}
+            <span className="text-persian-blue inline-block mt-3">Quality </span>{" "}
             Football Boots
           </h2>
           <p className="mt-4 lg:max-w-lg info-text">

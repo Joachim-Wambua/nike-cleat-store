@@ -7,7 +7,7 @@ const Subscribe = () => {
       id="contact-us"
     >
       <h3 className="text-4xl leading-[63px] lg:max-w-md font-palanquin font-bold">
-        Sign Up For <span className="text-coral-red">Updates</span> & Our
+        Sign Up For <span className="text-persian-blue">Updates</span> & Our
         Newsletter
       </h3>
 

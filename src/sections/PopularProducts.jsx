@@ -6,7 +6,7 @@ const PopularProducts = () => {
     <section id="products" className="max-container max-sm:mt-12">
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold">
-          <span className="text-coral-red">Popular</span> Products
+          <span className="text-persian-blue">Popular</span> Products
         </h2>
         <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
           Elevate your game with our sought-after football boot selections.
