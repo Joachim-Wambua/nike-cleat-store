@@ -5,6 +5,7 @@ const Button = ({
   borderColor,
   textColor,
   fullWidth,
+  onClick,
 }) => {
   return (
     <button
@@ -14,6 +15,7 @@ const Button = ({
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : "bg-persian-blue text-white border-persian-blue"
       } rounded-full ${fullWidth &&  "w-full"}"} `}
+      onClick={onClick}
     >
       {label}
 

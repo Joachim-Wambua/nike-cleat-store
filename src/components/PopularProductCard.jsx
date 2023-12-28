@@ -1,12 +1,18 @@
+import { useNavigate } from "react-router-dom";
 import { star } from "../assets/icons";
 import Button from "./Button";
 
-const PopularProductCard = ({ imgURL, name, price }) => {
+const PopularProductCard = ({ id, imgURL, name, price }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/product/${id}`);
+  };
   return (
     <div className="flex flex-1 flex-col w-full max-sm:w-full">
       <img src={imgURL} alt={name} className="w-[280px] h-[280px]" />
       <div className="mt-8 flex justify-start gap-2.5">
-        <div className=" justify-center items-center" >
+        <div className=" justify-center items-center">
           <img src={star} alt="rating" width={24} height={24} />
         </div>
         <p className="font-opensans text-xl font-normal text-slate-gray">
@@ -20,7 +26,7 @@ const PopularProductCard = ({ imgURL, name, price }) => {
         {price}
       </p>
       <div className="mt-5">
-        <Button label="Buy Now!" />
+        <Button label="Buy Now!" onClick={handleClick} />
       </div>
     </div>
   );
