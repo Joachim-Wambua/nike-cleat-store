@@ -39,82 +39,97 @@ export const navLinks = [
 
 export const shoes = [
   {
+    id: "S001",
     thumbnail: thumbnailShoe1,
     bigShoe: bigShoe1,
   },
   {
+    id: "S002",
     thumbnail: thumbnailShoe2,
     bigShoe: bigShoe2,
   },
   {
+    id: "S003",
     thumbnail: thumbnailShoe3,
     bigShoe: bigShoe3,
   },
 ];
 
 export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+  { id: "ST01", value: "1k+", label: "Brands" },
+  { id: "ST02", value: "500+", label: "Shops" },
+  { id: "ST03", value: "250k+", label: "Customers" },
 ];
 
 export const products = [
   {
+    id: "P001",
     imgURL: shoe1,
-    name: "Nike Phantom GT2 Academy MG",
+    name: "Nike Phantom GT2 Academy",
     price: "$220.20",
   },
   {
+    id: "P002",
     imgURL: shoe2,
     name: "Nike Tiempo Legend 10",
     price: "$230.20",
   },
   {
+    id: "P003",
     imgURL: shoe3,
     name: "Nike Mercurial Vapor Elite",
     price: "$230.20",
   },
   {
+    id: "P004",
     imgURL: shoe4,
     name: "Nike Mercurial Superfly 9 Club",
     price: "$200.20",
   },
   {
+    id: "P005",
     imgURL: shoe5,
     name: "Nike Mercurial Red",
     price: "$210.20",
   },
   {
+    id: "P006",
     imgURL: shoe6,
     name: "Nike Mercurial Superfly 10",
     price: "$220.20",
   },
   {
+    id: "P007",
     imgURL: shoe13,
     name: "Nike Phantom GT2 Academy",
     price: "$230.20",
   },
   {
+    id: "P008",
     imgURL: shoe8,
     name: "Nike Phantom GX Academy",
     price: "$220.20",
   },
   {
+    id: "P009",
     imgURL: shoe9,
     name: "Nike Phantom GX2 Academy",
     price: "$230.20",
   },
   {
+    id: "P010",
     imgURL: shoe10,
     name: "Nike Tiempo Legend 10 Academy",
     price: "$220.20",
   },
   {
+    id: "P011",
     imgURL: shoe11,
     name: "Nike Zoom Mercurial Superfly",
     price: "$230.20",
   },
   {
+    id: "P012",
     imgURL: shoe12,
     name: "Nike Phantom GX Elite",
     price: "$230.20",
