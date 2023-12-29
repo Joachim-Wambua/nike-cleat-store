@@ -83,7 +83,7 @@ export const products = [
   {
     id: "P004",
     imgURL: shoe4,
-    name: "Nike Mercurial Superfly 9 Club",
+    name: "Nike Mercurial Superfly 9",
     price: "$200.20",
   },
   {
@@ -119,7 +119,7 @@ export const products = [
   {
     id: "P010",
     imgURL: shoe10,
-    name: "Nike Tiempo Legend 10 Academy",
+    name: "Nike Tiempo Legend 10",
     price: "$220.20",
   },
   {
@@ -161,14 +161,14 @@ export const reviews = [
     customerName: "Jabari Amari",
     rating: 4.5,
     feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+      "Exceptional attention to detail and superior product quality exceeded my expectations. These Nike football boots not only meet high standards but also have a remarkable impact on pitch performance. Highly recommend!",
   },
   {
     imgURL: customer2,
     customerName: "Amina Nala",
     rating: 5.0,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "The Nike Mercurial Superfly surpassed my expectations, going above and beyond. I'm definitely becoming a returning customer!!",
   },
 ];
 
@@ -176,12 +176,12 @@ export const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "Nike Mercurial Superfly 9 Club", link: "/" },
-      { name: "Nike Phantom GT2 Academy", link: "/" },
-      { name: "Nike Phantom GX Elite", link: "/" },
-      { name: "Nike Tiempo Legend 10 Academy", link: "/" },
-      { name: "Nike Zoom Mercurial Superfly", link: "/" },
-      { name: "Nike Mercurial Vapor Elite", link: "/" },
+      { name: "Nike Mercurial Superfly 9 Club", link: "/product/P004" },
+      { name: "Nike Phantom GT2 Academy", link: "/product/P007" },
+      { name: "Nike Phantom GX Elite", link: "/product/P012" },
+      { name: "Nike Tiempo Legend 10 Academy", link: "/product/P010" },
+      { name: "Nike Zoom Mercurial Superfly", link: "/product/P011" },
+      { name: "Nike Mercurial Vapor Elite", link: "/product/P003" },
     ],
   },
   {

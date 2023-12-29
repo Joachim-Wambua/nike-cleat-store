@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import headerLogo from "../assets/images/nike-logo.png";
 import { hamburger, closeIcon } from "../assets/icons";
 import { navLinks } from "../constants";
