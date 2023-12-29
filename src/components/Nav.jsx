@@ -19,7 +19,7 @@ const Nav = () => {
   return (
     <>
       <header className="padding-x py-8 absolute z-10 w-full">
-        <nav className="flex justify-between items-center max-container relative">
+        <nav className="flex justify-between items-center max-container sticky">
           <a href="/">
             <img src={headerLogo} width={90} height={90} alt="Logo" />
           </a>
@@ -29,7 +29,7 @@ const Nav = () => {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="font-opensans leading-normal text-lg text-slate-gray"
+                  className="font-opensans leading-normal text-lg text-slate-black"
                 >
                   {item.label}
                 </a>
@@ -55,9 +55,7 @@ const Nav = () => {
       {/* Sidebar Modal */}
       <div
         className={`${
-          isSidebarOpen
-            ? "right-0 max-w-screen-md z-10"
-            : "right-full w-0 z-10"
+          isSidebarOpen ? "right-0 max-w-screen-md z-10" : "right-full w-0 z-10"
         } absolute top-0 overflow-y-auto transition-transform transform ease-in-out duration-300`}
       >
         <ul className="flex flex-col justify-center items-center mt-10 gap-20 p-20 h-[520px]">
