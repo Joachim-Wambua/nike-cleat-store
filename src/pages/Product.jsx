@@ -22,7 +22,7 @@ const ProductPage = () => {
           <img
             src={imgURL}
             alt={name}
-            className="ml-40 mb-20 h-auto"
+            className="lg:ml-40 mb-20 h-auto"
             width={540}
             height={540}
           />

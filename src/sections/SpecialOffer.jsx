@@ -3,6 +3,11 @@ import { offer } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 
 const SpecialOffer = () => {
+
+  const handleClick = () => {
+    scrollTo(`#products`);
+  };
+
   return (
     <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
       <div className="flex-1">
@@ -30,7 +35,7 @@ const SpecialOffer = () => {
           expectations. Your experience with us is nothing short of exceptional.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Shop Now" iconUrl={arrowRight} />
+          <Button label="Shop Now" iconUrl={arrowRight} onClick={handleClick} />
           <Button
             label="Learn More"
             backgroundColor="bg-white"

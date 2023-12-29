@@ -31,10 +31,10 @@ import {
 } from "../assets/images";
 
 export const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+  { href: "/#home", label: "Home" },
+  { href: "/#about-us", label: "About Us" },
+  { href: "/#products", label: "Products" },
+  { href: "/#contact-us", label: "Contact Us" },
 ];
 
 export const shoes = [
@@ -158,14 +158,14 @@ export const services = [
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Razz Moritz",
+    customerName: "Jabari Amari",
     rating: 4.5,
     feedback:
       "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
   },
   {
     imgURL: customer2,
-    customerName: "Elena Keisha",
+    customerName: "Amina Nala",
     rating: 5.0,
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",

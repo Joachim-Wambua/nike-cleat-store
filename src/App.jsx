@@ -19,12 +19,12 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/popular-products" element={<PopularProducts />} />
-        <Route path="/product/:id" element={<Product />} />
         <Route path="/super-quality" element={<SuperQuality />} />
         <Route path="/services" element={<Services />} />
         <Route path="/special-offer" element={<SpecialOffer />} />
         <Route path="/customer-reviews" element={<CustomerReviews />} />
         <Route path="/subscribe" element={<Subscribe />} />
+        <Route path="/product/:id" element={<Product />} />
       </Routes>
       <section className="bg-black padding-x padding-t pb-8">
         <Footer />
@@ -39,7 +39,22 @@ const Home = () => (
       <Hero />
     </section>
     <section className="padding">
+      <SuperQuality />
+    </section>
+    <section className="padding">
       <PopularProducts />
+    </section>
+    <section className="padding">
+      <Services />
+    </section>
+    <section className="padding">
+      <SpecialOffer />
+    </section>
+    <section className="padding bg-pale-blue">
+      <CustomerReviews />
+    </section>
+    <section className="padding">
+      <Subscribe />
     </section>
   </>
 );

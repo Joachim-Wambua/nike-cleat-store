@@ -2,17 +2,17 @@ import bigShoe1 from "./Nike-Phantom-GT2-Academy-MG.png";
 import bigShoe2 from "./Nike-Tiempo-Legend-10-Academy.png";
 import bigShoe3 from "./Nike-Mercurial-Vapor-15-Elite.png";
 
-import customer1 from "./customer1.jpeg";
-import customer2 from "./customer2.svg";
+import customer1 from "./male-avatar.png";
+import customer2 from "./female-avatar.png";
 
 import footerLogo from "./footer-logo.svg";
 import headerLogo from "./header-logo.svg";
 
 import offer from "./offer.png";
 
-import shoe1 from './Nike-Phantom-GT2-Academy-MG_.png';
-import shoe2 from './Nike-Tiempo-Legend-10-Academy_.png';
-import shoe3 from './Nike-Mercurial-Vapor-15-Elite_.png';
+import shoe1 from "./Nike-Phantom-GT2-Academy-MG_.png";
+import shoe2 from "./Nike-Tiempo-Legend-10-Academy_.png";
+import shoe3 from "./Nike-Mercurial-Vapor-15-Elite_.png";
 import shoe4 from "./Nike-Mercurial-Superfly-9-Club-Blue.png";
 import shoe5 from "./Nike-Mercurials-Red.png";
 import shoe6 from "./Nike-Mercurial-Superfly-9-Club.png";
