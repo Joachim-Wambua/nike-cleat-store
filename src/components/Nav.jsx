@@ -1,7 +1,7 @@
+import React, { useState } from "react";
 import headerLogo from "../assets/images/nike-logo.png";
-import { hamburger } from "../assets/icons";
+import { hamburger, closeIcon } from "../assets/icons";
 import { navLinks } from "../constants";
-import { useState } from "react";
 
 const Nav = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -10,10 +10,16 @@ const Nav = () => {
     setSidebarOpen(!isSidebarOpen);
   };
 
+  const handleMenuItemClick = () => {
+    // Add logic for handling menu item click if needed
+    // For example, close the sidebar after clicking a menu item
+    setSidebarOpen(false);
+  };
+
   return (
     <>
       <header className="padding-x py-8 absolute z-10 w-full">
-        <nav className="flex justify-between items-center max-container">
+        <nav className="flex justify-between items-center max-container relative">
           <a href="/">
             <img src={headerLogo} width={90} height={90} alt="Logo" />
           </a>
@@ -30,11 +36,18 @@ const Nav = () => {
               </li>
             ))}
           </ul>
+
           <div
-            className="hidden max-lg:block cursor-pointer"
+            className="hidden max-lg:block cursor-pointer relative z-20"
             onClick={toggleSidebar}
           >
-            <img src={hamburger} alt="Hamburger" width={25} height={25} />
+            <img
+              src={isSidebarOpen ? closeIcon : hamburger}
+              alt={isSidebarOpen ? "Close" : "Hamburger"}
+              width={25}
+              height={25}
+              style={{ zIndex: 1000 }} // Set a higher z-index for the icon
+            />
           </div>
         </nav>
       </header>
@@ -42,12 +55,18 @@ const Nav = () => {
       {/* Sidebar Modal */}
       <div
         className={`${
-          isSidebarOpen ? "right-0 h-full max-w-screen-md" : "right-full w-0"
-        } absolute top-0 h-full overflow-y-auto bg-white transition-transform transform ease-in-out duration-300`}
+          isSidebarOpen
+            ? "right-0 max-w-screen-md z-10"
+            : "right-full w-0 z-10"
+        } absolute top-0 overflow-y-auto transition-transform transform ease-in-out duration-300`}
       >
-        <ul className="flex flex-col justify-center items-center mt-20 gap-14 p-20 h-[100vh]">
+        <ul className="flex flex-col justify-center items-center mt-10 gap-20 p-20 h-[520px]">
           {navLinks.map((item) => (
-            <li key={item.label}>
+            <li
+              key={item.label}
+              className="cursor-pointer z-10"
+              onClick={handleMenuItemClick}
+            >
               <a
                 href={item.href}
                 className="font-opensans leading-normal text-lg text-slate-gray"
