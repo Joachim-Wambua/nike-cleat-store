@@ -14,12 +14,6 @@ Explore a world of stylish and high-performance football boots with our concept 
 
 - **Innovative Engineering:** Experience cutting-edge engineering that optimizes your performance on the pitch.
 
-## Reviews
-
-> "Impeccable attention to detail and product quality surpassed my expectations. These Nike football boots not only meet high standards but also have a remarkable impact on pitch performance. Highly recommend!" - Satisfied Customer
-
-> "This product surpassed my expectations, going above and beyond. I'm definitely becoming a returning customer!" - Happy Shopper
-
 ## Getting Started
 
 ### Prerequisites
@@ -33,3 +27,15 @@ Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/your-username/nike-football-boot-store.git
 cd nike-football-boot-store
+
+```
+Install dependencies using npm:
+
+```bash
+npm install
+```
+
+Run the project by starting the development server:
+
+```bash
+npm run dev
