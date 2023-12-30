@@ -25,8 +25,10 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/your-username/nike-football-boot-store.git
-cd nike-football-boot-store
+git clone [https://github.com/your-username/nike-football-boot-store.git](https://github.com/Joachim-Wambua/nike-cleat-store.git)
+
+
+cd nike-cleat-store
 
 ```
 Install dependencies using npm:
