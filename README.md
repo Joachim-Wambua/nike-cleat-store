@@ -1,6 +1,11 @@
 # Nike Football Boot Store
 
-Welcome to the Nike Football Boot Store concept – a simple frontend implementation built using ReactJS, Vite, and TailwindCSS.
+Welcome to the Nike Football Boot(Cleat) Store concept – a simple frontend implementation built using ReactJS, Vite, and TailwindCSS.
+
+<div align="center" >
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
 ## Overview
 
@@ -40,3 +45,9 @@ Run the project by starting the development server:
 
 ```bash
 npm run dev
+```
+
+Open your browser and navigate to http://localhost:5173 to view the Nike Cleat Store.
+
+## Contributing
+We welcome contributions! Feel free to open an issue or submit a pull request.
