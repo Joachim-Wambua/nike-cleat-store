@@ -3,9 +3,14 @@
 Welcome to the Nike Football Boot(Cleat) Store concept – a simple frontend implementation built using ReactJS, Vite, and TailwindCSS.
 
 <div align="center" >
+  <img src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1704054278/Nike_Cleat_Store_-_Vid_jgnqzn.gif" alt="Landing Page Gif"    
+      >
+
+  <div align="center" >
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
+</div>
 
 ## Overview
 
