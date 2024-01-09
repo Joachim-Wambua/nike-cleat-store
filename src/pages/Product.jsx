@@ -13,12 +13,12 @@ const ProductPage = () => {
     return <div>Product not found!</div>;
   }
 
-  const { imgURL, name, price } = product;
+  const { imgURL, name, price, description } = product;
 
   return (
     <div className="container mx-auto">
       <div className="flex">
-        <div className="w-1/2 mt-40">
+        <div className="w-1/2 mt-40 sm:mt-60">
           <img
             src={imgURL}
             alt={name}
@@ -27,14 +27,10 @@ const ProductPage = () => {
             height={540}
           />
         </div>
-        <div className="w-1/2 pl-8 mt-40">
+        <div className="w-1/2 pl-8 lg:mt-60 sm:mt-40">
           <h2 className="text-3xl font-semibold">{name}</h2>
           <p className="text-lg text-gray-700 mb-8">{price}</p>
-          <p className="text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            facilisi. Proin nec nunc nec nisi varius fermentum. Fusce at urna ac
-            felis vehicula cursus.
-          </p>
+          <p className="text-gray-600">{description}</p>
           <div className="mt-6">
             <Button label="Add to Cart" />
           </div>
